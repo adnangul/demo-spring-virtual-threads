@@ -42,4 +42,6 @@ This is useful for observing how a virtual-thread-based executor scales under co
 
 ### Evaluate
 
-Run LoadTest2 once with 1,000, 2,000 or more concurrent requests with virtual threads enabled, then repeat the test with virtual threads disabled (application.properties). Compare the results to evaluate the performance difference.
+Run LoadTest2 once with virtual threads enabled, then repeat the test with virtual threads disabled (application.properties). Compare the results to evaluate the performance difference.
+
+Try with 1,000, 2,000 or more concurrent requests 
